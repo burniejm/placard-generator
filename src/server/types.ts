@@ -32,7 +32,7 @@ export interface SelectionRange {
 // Column mapping: source index -> output position
 // Output order: Location, # Sprinklers, Density, Area, Flow Rate, Pressure, Hose Stream, Occupancy, Commodity, Max Height, Date, Contract
 export const COLUMN_MAPPING = {
-  sourceIndices: [3, 5, 6, 10, 11, 12, 13, 7, 8, 9, 1, 2],
+  sourceIndices: [4, 6, 7, 11, 12, 13, 14, 8, 9, 10, 2, 3],
   outputHeaders: [
     'Location',
     '# Sprinklers',
